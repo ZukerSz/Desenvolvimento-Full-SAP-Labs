@@ -38,6 +38,64 @@
 | **🔌 Integrações** | Testes de APIs e conectividade entre sistemas. |
 
 ---
+
+## Views standard
+
+> <sub>Lista de referência de **CDS views expostas** (públicas) comuns em S/4HANA — útil para modelagem, consumo em Datasphere/SAC e integrações. Onde existir view de texto correspondente, fica indicada ao lado da view principal.</sub>
+
+### Views salvas inicialmente
+
+| View |
+| :--- |
+| `A_JOURNALENTRYITEMBASIC` |
+| `I_GLACCOUNTLINEITEM` |
+
+### Dados mestres
+
+| View principal | View de texto (quando aplicável) |
+| :--- | :--- |
+| `I_BusinessPartner` | — |
+| `I_Customer` | `I_CustomerGroupText`, `I_CustomerAccountAssignmentGroupT` |
+| `I_Supplier` | `I_SupplierText` |
+| `I_Product` / `I_Material` | `I_ProductText` / `I_MaterialText` |
+| `I_CompanyCode` | `I_CompanyCodeText` |
+| `I_CostCenter` | `I_CostCenterText` |
+| `I_ProfitCenter` | `I_ProfitCenterText` |
+| `I_GLAccount` | `I_GLAccountText` |
+| `I_GLAccountInChartOfAccounts` | *(texto em geral via* `I_GLAccountText` *com chave conta + plano de contas)* |
+| `I_Plant` | `I_PlantText` |
+| `I_SalesOrganization` | `I_SalesOrganizationText` |
+| `I_MaterialGroup` | `I_MaterialGroupText` |
+| `I_ControllingArea` | `I_ControllingAreaText` |
+
+### Finanças / FI-CO
+
+| View |
+| :--- |
+| `I_JournalEntry` |
+| `I_JournalEntryItem` |
+| `I_OperationalAcctgDocItem` |
+| `I_ActualPlanJournalEntryItem` |
+
+### Vendas / SD
+
+| View |
+| :--- |
+| `I_SalesDocument` |
+| `I_SalesDocumentItem` |
+| `I_BillingDocument` |
+| `I_BillingDocumentItem` |
+
+### Suprimentos e estoque / MM
+
+| View |
+| :--- |
+| `I_PurchaseOrder` / `I_PurchaseOrderAPI01` |
+| `I_PurchaseOrderItem` / `I_PurchaseOrderItemAPI01` |
+| `I_MaterialDocumentHeader` |
+| `I_MaterialDocumentItem` |
+
+---
 <div align="center">
   <sub>Mantido por <b>Iuker Souza</b> • Desenvolvendo o SAP</sub>
 </div>
