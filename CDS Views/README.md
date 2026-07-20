@@ -48,6 +48,8 @@
 | :--- | :--- | :--- |
 | `ZI_Preco_Venda` | `ZC_Preco_Venda` | Análise de composição e margem do preço de venda. |
 | `ZI_Revenda` | `ZC_Revenda` | Gestão de operações e margens de revenda de mercadorias. |
+| `ZI_Vendas_Fat` | `ZC_Vendas_Fat` | Pedidos de venda × faturamento (**ZE02**). |
+| `ZI_Fat_Celulas` | `ZC_Fat_Celulas` | Faturamento por células/região (**YSD0002**). |
 
 ---
 
