@@ -32,7 +32,7 @@
 
 | Contexto | Descrição |
 | :--- | :--- |
-| **📦 CDS Views** | Relatórios analíticos, Cubos e Dimensões virtuais. |
+| **📦 CDS Views** | Relatórios analíticos (FI/CO, MM, SD). Inclui `ZI_`/`ZC_` custom — ex.: **ZE02** (`ZI_Vendas_Fat` / `ZC_Vendas_Fat`) e **YSD0002** (`ZI_Fat_Celulas` / `ZC_Fat_Celulas`). Detalhe em [`CDS Views/README.md`](./CDS%20Views/README.md). |
 | **📈 Analytics** | Scripts de cálculo e lógicas para o SAC/Datasphere. |
 | **🔧 ABAP Utils** | Snippets de código, Classes utilitárias e Automações. |
 | **🔌 Integrações** | Testes de APIs e conectividade entre sistemas. |
